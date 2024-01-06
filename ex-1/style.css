@@ -1,1 +1,54 @@
-/* Start coding here */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Reset default margin and padding */
+/*create a webpage without any white space around the content*/
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+
+
+.website-blog-header {
+    background-color: rgb(146,170,189);
+    color: rgb(24,59,86);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    /*border:none;
+    margin: 0;*/
+}
+
+.website-blog-header p {
+    margin-left: 46px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    color: rgb(27, 62, 89);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.show-card {
+    position: relative;
+    width: 35%;    
+    margin-top: 30px;    
+    margin-left: 80px;
+    margin-bottom: 30px;
+
+    padding-left: 20px;    
+    padding-right: 20px;     
+    background-color: rgb(228, 233, 237);
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(24, 59, 86);
+}
+
+.pict-card{
+    position: relative;
+    width: 85%;
+}
