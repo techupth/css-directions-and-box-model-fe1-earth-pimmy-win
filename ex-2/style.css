@@ -1,1 +1,23 @@
 /* Start coding here */
+* {
+    /*box-sizing: border-box;*/
+    background-color: lightgray;
+} 
+.black-box{
+    background-color: black;
+    padding: 10px;
+}
+.red-box{
+    background-color: rgb(151, 31, 31);
+    padding: 10px;
+}
+.content-text {
+    height: 100vh;
+    padding-block: 10px;
+    background-color: lightyellow;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    background-color: lightyellow;
+}
